@@ -22,13 +22,14 @@ Topic Modeling models features of documents by assuming they were created from a
 
 These topics can be informative but can also be kind of confusing. They’re most helpful for boiling down texts to a reduced set of “features”, for use in other modeling techniques.
 
-* [Gensim](https://radimrehurek.com/gensim/), for topic modeling techniques. Gets mixed reviews.
+* [Gensim](https://radimrehurek.com/gensim/), Python library for topic modeling. Gets mixed reviews.
+* [An intro to how LDA works](http://blog.echen.me/2011/08/22/introduction-to-latent-dirichlet-allocation/)
+* [Another intro to how LDA works](http://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/)
 
 ## An Alternative to Traditional Topic Modeling
-We at Datascope have had good luck using Wikipedia as a labeled corpus, and doing paragraph-wise or sentence-wise similarity between a document and every article on Wikipedia to create “topic” features for that document. 
+We at Datascope have had good luck using Wikipedia as a labeled corpus, and doing paragraph-wise or sentence-wise similarity between a document and every article on Wikipedia to create “topic” features for that document. These article-based labels are much easier for humans to read and use than LDA “bags of words“.
 
 We use ElasticSearch to do similarity quickly. It’s kind of a pain to set up and use, but it’s very fast.
-
 
 # Sentiment Analysis
 [A comparison of sentiment analysis tools on Yelp data](http://fotiad.is/blog/sentiment-analysis-comparison/?utm_content=bufferecaeb&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) (the outshot: it’s much easier to do well with labeled data + a classifier than it is to assign “sentiment scores” accurately)
