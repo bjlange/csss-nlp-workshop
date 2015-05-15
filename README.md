@@ -1,7 +1,7 @@
 # CSSS 2015 NLP Workshop
 
 Instructor: Brian Lange, Data Scientist at [Datascope](http://datasco.pe)  
-[twitter](http://twitter.com/bjlange)
+[twitter](http://twitter.com/bjlange) // brian.lange@datascopeanalytics.com 
 
 Dive into the world of Natural Language Processing with the power of Python and its many analysis libraries. 
 We'll use NLTK, TextBlob, and more on real text data, learning about stemming, word counts, sentiment analysis, 
